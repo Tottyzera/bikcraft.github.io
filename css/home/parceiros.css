@@ -21,7 +21,7 @@
   border-left: 2px solid var(--cor-2);
 }
 
-.parceiros img{
+.parceiros img {
   margin: auto;
 }
 
@@ -30,7 +30,7 @@
   border-left: none;
 }
 
-.parceiros li:nth-child(n+5) {
+.parceiros li:nth-child(n + 5) {
   border-top: 2px solid var(--cor-2);
 }
 
@@ -38,11 +38,6 @@
   .parceiros {
     padding-bottom: 60px;
   }
-  
-  .parceiros li {
-    padding: 20px;
-  }
-
   .parceiros h2 {
     margin-bottom: 20px;
   }
