@@ -1,7 +1,7 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--cor-p1);
+  background-color: var(--cor-p3);
   overflow: hidden;
 }
 
@@ -15,7 +15,7 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
-  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+  background: url("../../img/dec/bottom-right.svg") no-repeat bottom 40px
     right 40px;
 }
 
@@ -31,7 +31,7 @@
 .depoimento p::before,
 .depoimento p::after {
   font-size: 5rem;
-  color: var(--cor-p2);
+  color: var(--cor-p5);
   position: absolute;
 }
 

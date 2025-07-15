@@ -12,17 +12,17 @@
 
 /* Home */
 @import "./home/introducao.css";
-@import "./home/tecnologia.css";
+@import "./home/variosbolos.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
 /* Bicicletas */
-@import "./bicicletas/bicicletas-lista.css";
-@import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bolo-lista.css";
+@import "./bicicletas/bolos.css";
 
 /* Bicicleta */
-@import "./bicicleta/bicicleta.css";
-@import "./bicicleta/seguro.css";
+@import "./bolo/bolo.css";
+@import "./bolo/seguro.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";

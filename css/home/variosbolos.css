@@ -1,0 +1,79 @@
+.variosbolos-bg {
+  background-color: var(--cor-p2);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.variosbolos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.variosbolos-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.variosbolos-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.variosbolos-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.variosbolos-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.variosbolos-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.variosbolos a {
+  margin-bottom: 80px;
+}
+
+.variosbolos-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.variosbolos-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.variosbolos-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .variosbolos-bg {
+    box-shadow: initial;
+  }
+  .variosbolos {
+    grid-template-columns: 1fr;
+  }
+  .variosbolos-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .variosbolos-imagem {
+    display: none;
+  }
+  .variosbolos a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .variosbolos-vantagens {
+    flex-direction: column;
+  }
+}

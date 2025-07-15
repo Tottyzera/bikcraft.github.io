@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: var(--cor-12);
+  background-color: var(--cor-p2);
 }
 
 .footer {
@@ -23,7 +23,7 @@
   display: block;
   max-width: 360px;
   height: 2px;
-  background: var(--cor-11);
+  background: var(--cor-p2);
   margin-top: 16px;
 }
 
